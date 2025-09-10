@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tooq</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/rest.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- js -->
+    <script src="./js/script.js" defer></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- 헤더 -->
+      <header class="header_area">
+        <a href="#none" class="header_logo">
+          <img src="./img/logo.png" alt="" />
+        </a>
+        <div class="top_menu">
+          <a href="#none" class="menulog">Login</a>
+          <a href="#none" class="menu">Cart(0)</a>
+          <a href="#none" class="menu">Order</a>
+          <a href="#none" class="menu">My Page</a>
+        </div>
+      </header>
+      <!-- 햄버거버튼 -->
+      <a href="#none" id="hamburger"><span></span><span></span><span></span></a>
+      <!-- 배너 -->
+      <section class="banner">
+        <div class="container">
+          <!-- 왼쪽 메뉴 -->
+          <div class="left_menu_box">
+            <ul class="main_menu">
+              <li data-tab="tab" class="mainmenu left hoverbtn">
+                <a href="#none" class="menu">About us</a>
+              </li>
+              <div class="mainmenu">
+                <li data-tab="tab1" class="left1 hoverbtn">
+                  <a href="#none" class="menu">Shop</a>
+                  <div class="add_icon">
+                    <a href="#none" class="icon" id="iconBtn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          fill="#222222"
+                          d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </li>
+                <div class="tab1_menulist">
+                  <ul id="tab1" class="submenu_shop_box">
+                    <li class="menu_box">
+                      <a href="#none" class="tab_menu">ALL</a>
+                      <a href="#none" class="tab_menu">SET</a>
+                      <a href="#none" class="tab_menu">EYE</a>
+                      <a href="#none" class="tab_menu">LIPS</a>
+                      <a href="#none" class="tab_menu">BASE</a>
+                      <a href="#none" class="tab_menu">CLEANSING</a>
+                      <a href="#none" class="tab_menu">GOODS</a>
+                      <a href="#none" class="tab_menu">TOOLS</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <li data-tab="tab" class="mainmenu left hoverbtn">
+                <a href="#none" class="menu">Contact</a>
+              </li>
+              <div class="mainmenu">
+                <li data-tab="tab2" class="left1 hoverbtn">
+                  <a href="#none" class="menu">Community</a>
+                  <div class="add_icon">
+                    <a href="#none" class="icon" id="iconBtn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"
+                      >
+                        <path
+                          fill="#222222"
+                          d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </li>
+                <div class="tab2_menulist">
+                  <ul id="tab2" class="submenu_community_box">
+                    <li class="menu_box">
+                      <a href="#none" class="tab_menu">REVIEW</a>
+                      <a href="#none" class="tab_menu">Q&A</a>
+                      <a href="#none" class="tab_menu">NOTICE</a>
+                      <a href="#none" class="tab_menu">EVENT</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <!-- 가운데 메인배너 -->
+          <div class="main_banner">
+            <div class="top_text reenie_beanie">( Effortless mood )</div>
+            <h1 class="main_project_title">Tooq</h1>
+            <div class="banner_main_img">
+              <img src="./img/banner_mainimg1.png" alt="" />
+            </div>
+          </div>
+          <!-- 오르쪽 섹션  -->
+          <div class="right_section">
+            <a href="#none" class="banner_subimg">
+              <img src="./img/banner_subimg_hover1.jpg" alt="" />
+            </a>
+            <div class="right_sec_bottom_textbox">
+              <div class="top_title">
+                Master piece<br />
+                Shadow Palerre
+              </div>
+              <div class="center_name">Creamy-Matte 4xShadows</div>
+              <button class="bottom_button">View Product</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 투크루프 -->
+      <div class="loop_play first">
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+      </div>
+      <!-- sec_1 -->
+      <section class="sec_1">
+        <a href="#none" class="sec1_img">
+          <img src="./img/sec1_img.gif" alt="" />
+        </a>
+      </section>
+      <!-- sec_2 -->
+      <section class="sec_2">
+        <a href="#none" class="sec2_img_review_section">
+          <img src="./img/sec2_img.png" alt="" />
+        </a>
+        <a href="#none" class="sec2_img_p_and_a_section">
+          <img src="./img/sec3_img.jpg" alt="" />
+        </a>
+      </section>
+      <!-- 투크루프 -->
+      <div class="loop_play">
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+        <span>
+          <img src="./img/loop_img.png" alt="" />
+        </span>
+      </div>
+      <!-- sec_4 -->
+      <div class="sec_4">
+        <h2 class="best">BEST</h2>
+        <div class="content_4">
+          <div class="best_product">
+            <div class="best_img con_1">
+              <img src="./img/1.png" alt="" />
+            </div>
+            <p class="best_name">One by Genuine Magnetic Shadow Palette</p>
+            <p class="best_text">
+              [투크X한예롤 작가 에디션] 원 바이 제뉴인 마그네틱 섀도우 25구
+              팔레트
+            </p>
+            <div class="best_second">
+              <span class="percent">22%</span>
+              <p class="costprice">35,000원</p>
+              <p class="saleprice">27,000원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_2">
+              <img src="./img/2.png" alt="" />
+            </div>
+            <p class="best_name">Satin Dohwa Balm</p>
+            <p class="best_text">투크 새틴 도화밤</p>
+            <div class="best_second">
+              <span class="percent">9%</span>
+              <p class="costprice">19,700원</p>
+              <p class="saleprice">17,900원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_3">
+              <img src="./img/3.png" alt="" />
+            </div>
+            <p class="best_name">Satin Skin Puff</p>
+            <p class="best_text">투크 새틴결 퍼프 (20개입)</p>
+            <div class="best_second">
+              <span class="percent">20%</span>
+              <p class="costprice">14,000원</p>
+              <p class="saleprice">11,200원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_4">
+              <img src="./img/4.jpg" alt="" />
+            </div>
+            <p class="best_name">Easy & Gentle Bleach</p>
+            <p class="best_text">투크 이지 앤 젠틀 블리치</p>
+            <div class="best_second">
+              <span class="percent">10%</span>
+              <p class="costprice">25,600원</p>
+              <p class="saleprice">23,000원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_5">
+              <img src="./img/5.png" alt="" />
+            </div>
+            <p class="best_name">Master Piece Shadow Quad</p>
+            <p class="best_text">투크 마스터 피스 페이스 섀도우 4구 팔레트</p>
+            <div class="best_second">
+              <span class="percent">21%</span>
+              <p class="costprice">23,000원</p>
+              <p class="saleprice">18,000원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_6">
+              <img src="./img/6.png" alt="" />
+            </div>
+            <p class="best_name">Master Piece Eye Shadow SET</p>
+            <p class="best_text">투크 PICK 섀도우 조합 세트</p>
+            <div class="best_second">
+              <span class="percent">29%</span>
+              <p class="costprice">39,000원</p>
+              <p class="saleprice">27,600원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_7">
+              <img src="./img/7.png" alt="" />
+            </div>
+            <p class="best_name">Eye Extender</p>
+            <p class="best_text">투크 아이 익스텐더</p>
+            <div class="best_second">
+              <span class="percent">6%</span>
+              <p class="costprice">14,900원</p>
+              <p class="saleprice">13,900원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_8">
+              <img src="./img/8.png" alt="" />
+            </div>
+            <p class="best_name">Gentle Kiss Glow Tint</p>
+            <p class="best_text">투크 젠틀키스 글로우 틴트</p>
+            <div class="best_second">
+              <span class="percent">10%</span>
+              <p class="costprice">20,000원</p>
+              <p class="saleprice">18,000원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_9">
+              <img src="./img/9.png" alt="" />
+            </div>
+            <p class="best_name">Water Color Petal Powder</p>
+            <p class="best_text">투크 수채화 꽃잎 파우더</p>
+            <div class="best_second">
+              <span class="percent">10%</span>
+              <p class="costprice">32,000원</p>
+              <p class="saleprice">28,800원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_10">
+              <img src="./img/10.png" alt="" />
+            </div>
+            <p class="best_name">Master Piece Shadow</p>
+            <p class="best_text">투크 마스터 피스 페이스 섀도우</p>
+            <div class="best_second">
+              <span class="percent">7%</span>
+              <p class="costprice">13,000원</p>
+              <p class="saleprice">12,000원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_11">
+              <img src="./img/11.png" alt="" />
+            </div>
+            <p class="best_name">Without Mirror Lip Tint</p>
+            <p class="best_text">투크 윗아웃 미러 립 틴트</p>
+            <div class="best_second">
+              <p class="costprice">19,000원</p>
+              <p class="saleprice">19,000원</p>
+            </div>
+          </div>
+          <div class="best_product">
+            <div class="best_img con_12">
+              <img src="./img/12.png" alt="" />
+            </div>
+            <p class="best_name">Watercolor Base</p>
+            <p class="best_text">투크 수채화 베이스</p>
+            <div class="best_second">
+              <span class="percent">10%</span>
+              <p class="costprice">28,000원</p>
+              <p class="saleprice">25,200원</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sec_5 -->
+      <div class="sec_5">
+        <ul class="brand_magazine">
+          <li class="tooq">tooq</li>
+          <div class="magazine">magazine</div>
+          <li class="brand_text">
+            투크의 다양한 브랜드 소식을 빠르게 만나보세요.
+          </li>
+        </ul>
+      </div>
+      <!-- sec_6 -->
+      <div class="sec_6">
+        <div class="brand_photo">
+          <img src="./img/left.jpg" alt="" />
+          <p class="photo_name">best product</p>
+        </div>
+        <div class="brand_photo">
+          <img src="./img/right.jpg" alt="" />
+          <p class="photo_name">new product</p>
+        </div>
+      </div>
+      <!-- sec_7 -->
+      <section class="sec_7">
+        <div class="container">
+          <!-- ------------------------------------------>
+          <div class="notice_box project_box">
+            <div class="notice_top">
+              <h1 class="notice_text">( notice )</h1>
+              <button class="review_btn">More View</button>
+            </div>
+            <div class="notice_swiper swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="notice_slide swiper-slide">
+                  [NOTICE] 투크 멤버십 리뷰 적립금 혜택
+                </div>
+                <div class="notice_slide swiper-slide">
+                  [NOTICE] 투크 올리브영 오프라인 매장 안내
+                </div>
+                <div class="notice_slide swiper-slide">
+                  [NOTICE] 투크 멤버십 혜택
+                </div>
+                <div class="notice_slide swiper-slide">
+                  [NOTICE] 투크 빅세일 안내
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------------------------->
+          <!-- 리뷰 -->
+          <div class="review project_box">
+            <!-- 리뷰 상단 -->
+            <div class="review_top">
+              <h1 class="main_title_review reenie_beanie">( REVIEW )</h1>
+              <button class="review_btn">More View</button>
+            </div>
+            <!-- 상단 텍스트 -->
+            <div class="review_top_name_box">
+              <p class="review_photo">PHOTO REVIEW | 포토 리뷰</p>
+            </div>
+            <!-- 최신, 추천, 서치바 -->
+            <div class="review_keyword_bar">
+              <div class="keyword">
+                <p class="review_keyword_newest">최신순</p>
+                <p class="review_keyword_recommended">추천순</p>
+              </div>
+              <!-- 서치바 -->
+              <div class="review_search_bar">
+                <a href="#none" class="search_icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                      d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                    />
+                  </svg>
+                </a>
+                <input type="search" placeholder="리뷰 키워드 또는 상품 검색" />
+              </div>
+            </div>
+            <!-- 카테고 박스 -->
+            <div class="review_category_box">
+              <!-- 1번째 카테고리 버튼 -->
+              <div class="review_category_btn">
+                <div id="categoryDropdown" class="firstcategory">
+                  <div class="all_category_btn">
+                    <p class="all_category">전체 카테고리</p>
+                    <a href="#none" class="arrow_btn"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 640"
+                      >
+                        <path
+                          d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="all_category_box">
+                    <div class="category_header">
+                      <span class="top_category">카테고리</span>
+                      <div class="reset">
+                        <a href="#none" class="reset_icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M552 256L408 256C398.3 256 389.5 250.2 385.8 241.2C382.1 232.2 384.1 221.9 391 215L437.7 168.3C362.4 109.7 253.4 115 184.2 184.2C109.2 259.2 109.2 380.7 184.2 455.7C259.2 530.7 380.7 530.7 455.7 455.7C463.9 447.5 471.2 438.8 477.6 429.6C487.7 415.1 507.7 411.6 522.2 421.7C536.7 431.8 540.2 451.8 530.1 466.3C521.6 478.5 511.9 490.1 501 501C401 601 238.9 601 139 501C39.1 401 39 239 139 139C233.3 44.7 382.7 39.4 483.3 122.8L535 71C541.9 64.1 552.2 62.1 561.2 65.8C570.2 69.5 576 78.3 576 88L576 232C576 245.3 565.3 256 552 256z"
+                            />
+                          </svg>
+                        </a>
+                        <a href="#none" class="reset-btn">초기화</a>
+                      </div>
+                    </div>
+                    <ul class="category_list">
+                      <li class="category_item">
+                        <input
+                          type="radio"
+                          name="category"
+                          id="all"
+                          checked
+                        /><label for="all">전체 카테고리</label>
+                      </li>
+                      <li class="category_item">
+                        <input type="radio" name="category" id="all2" /><label
+                          for="all2"
+                          >ALL</label
+                        >
+                      </li>
+                      <li class="category_item">
+                        <input type="radio" name="category" id="eye" /><label
+                          for="eye"
+                          >EYE</label
+                        >
+                      </li>
+                      <li class="category_item">
+                        <input
+                          type="radio"
+                          name="category"
+                          id="cleansing"
+                        /><label for="cleansing">CLEANSING</label>
+                      </li>
+                      <li class="category_item">
+                        <input type="radio" name="category" id="base" /><label
+                          for="base"
+                          >BASE</label
+                        >
+                      </li>
+                      <li class="category_item">
+                        <input type="radio" name="category" id="goods" /><label
+                          for="goods"
+                          >GOODS</label
+                        >
+                      </li>
+                      <li class="category_item">
+                        <input type="radio" name="category" id="lips" /><label
+                          for="lips"
+                          >LIPS</label
+                        >
+                      </li>
+                      <li class="category_item">
+                        <input type="radio" name="category" id="tools" /><label
+                          for="tools"
+                          >TOOLS</label
+                        >
+                      </li>
+                      <li class="category_item">
+                        <input type="radio" name="category" id="new" /><label
+                          for="new"
+                          >NEW</label
+                        >
+                      </li>
+                      <li class="category_item">
+                        <input type="radio" name="category" id="best" /><label
+                          for="best"
+                          >BEST</label
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- 두번째 카테고리 버튼 -->
+              <div class="star_category">
+                <div id="ratingFilter" class="secondcategory">
+                  <div class="star_category_btn">
+                    <p class="starbtn">별점</p>
+                    <a href="#none" class="arrow_btn"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 640"
+                      >
+                        <path
+                          d="M297.4 438.6C309.9 451.1 330.2 451.1 342.7 438.6L502.7 278.6C515.2 266.1 515.2 245.8 502.7 233.3C490.2 220.8 469.9 220.8 457.4 233.3L320 370.7L182.6 233.4C170.1 220.9 149.8 220.9 137.3 233.4C124.8 245.9 124.8 266.2 137.3 278.7L297.3 438.7z"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+
+                  <div class="star_category_box">
+                    <div class="filter_title">별점</div>
+                    <div class="rating_option">
+                      <div class="stars">
+                        <a href="#none" class="star_active">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                        </a>
+                        <span>아주 좋아요</span>
+                      </div>
+                      <input type="checkbox" />
+                    </div>
+
+                    <div class="rating_option">
+                      <div class="stars">
+                        <a href="#none" class="star_active">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                        </a>
+                        <span>좋아요</span>
+                      </div>
+                      <input type="checkbox" />
+                    </div>
+
+                    <div class="rating_option">
+                      <div class="stars">
+                        <a href="#none" class="star_active">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                        </a>
+                        <span>보통이에요</span>
+                      </div>
+                      <input type="checkbox" />
+                    </div>
+
+                    <div class="rating_option">
+                      <div class="stars">
+                        <a href="#none" class="star_active">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                        </a>
+                        <span>그냥 그래요</span>
+                      </div>
+                      <input type="checkbox" />
+                    </div>
+
+                    <div class="rating_option">
+                      <div class="stars">
+                        <a href="#none" class="star_active">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 640"
+                          >
+                            <path
+                              d="M320.1 32C329.1 32 337.4 37.1 341.5 45.1L415 189.3L574.9 214.7C583.8 216.1 591.2 222.4 594 231C596.8 239.6 594.5 249 588.2 255.4L473.7 369.9L499 529.8C500.4 538.7 496.7 547.7 489.4 553C482.1 558.3 472.4 559.1 464.4 555L320.1 481.6L175.8 555C167.8 559.1 158.1 558.3 150.8 553C143.5 547.7 139.8 538.8 141.2 529.8L166.4 369.9L52 255.4C45.6 249 43.4 239.6 46.2 231C49 222.4 56.3 216.1 65.3 214.7L225.2 189.3L298.8 45.1C302.9 37.1 311.2 32 320.2 32zM320.1 108.8L262.3 222C258.8 228.8 252.3 233.6 244.7 234.8L119.2 254.8L209 344.7C214.4 350.1 216.9 357.8 215.7 365.4L195.9 490.9L309.2 433.3C316 429.8 324.1 429.8 331 433.3L444.3 490.9L424.5 365.4C423.3 357.8 425.8 350.1 431.2 344.7L521 254.8L395.5 234.8C387.9 233.6 381.4 228.8 377.9 222L320.1 108.8z"
+                            />
+                          </svg>
+                        </a>
+                        <span>별로예요</span>
+                      </div>
+                      <input type="checkbox" />
+                    </div>
+
+                    <div class="star_bottom_btn">
+                      <button class="btn_reset">초기화</button>
+                      <button class="btn_apply">적용</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 스라이드 -->
+            <div class="swiperbox">
+              <!-- 1번째 슬라이드 -->
+              <div class="review_swiper swiper firstSwiper">
+                <div class="swiper-wrapper reviewswiper">
+                  <div class="swiper-slide slider1">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg1.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg1.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">투크 노모어 보더 클렌징워터</p>
+                          <span class="review_count">리뷰449</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">피부 예민러인 사람들 정착템 !!!</p>
+                        <span class="reviewer">지그재그 리뷰 작성자</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider2">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg2.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg2.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE]투크 젠틀키스 글로우 틴트
+                          </p>
+                          <span class="review_count">리뷰40</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">진짜 자연스럽게 글로시하고 ....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider3">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg3.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg3.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 수채화 꽃잎 파우더
+                          </p>
+                          <span class="review_count">리뷰438</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">일단 제가 쓰기에는 피부 트....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider4">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg4.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg3.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 수채화 꽃잎 파우더
+                          </p>
+                          <span class="review_count">리뷰438</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">엄마한테도 드렸는데 그 후로....</p>
+                        <span class="reviewer">전****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider5">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg5.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg2.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE]투크 젠틀키스 글로우 틴트
+                          </p>
+                          <span class="review_count">리뷰40</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">혈색도는 정도의 자연스러운 ....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider6">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg6.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg4.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 수채화 베이스 BOX
+                          </p>
+                          <span class="review_count">리뷰 3,247</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">잘 받았어요 특별히 좋아하다 ....</p>
+                        <span class="reviewer">zhangqi****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider7">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg7.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg3.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 수채화 꽃잎 파우더
+                          </p>
+                          <span class="review_count">리뷰 438</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">패키지도 이쁘고 귀여워요</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider8">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg8.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg5.jpg" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [챔뷰티X투크] 챔 PICK 조합 세트
+                          </p>
+                          <span class="review_count">리뷰 5,210</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">좋은 가격에 구매 잘했습니다 ㅎㅎ</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider9">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg9.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg5.jpg" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [챔뷰티X투크] 챔 PICK 조합 세트
+                          </p>
+                          <span class="review_count">리뷰 5,210</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">예쁜 것 같아요 입술에 착붙 ㅎㅎ</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider10">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg10.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg3.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 수채화 꽃잎 파우더
+                          </p>
+                          <span class="review_count">리뷰438</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">들고 다닐 수 있고 케이스 ....</p>
+                        <span class="reviewer">노****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider11">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg11.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg15.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 나이트케어 세트
+                          </p>
+                          <span class="review_count">리뷰1,637</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">클렌징 오일은 이번에 처음 ....</p>
+                        <span class="reviewer">노****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider12">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg12.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg16.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            투크 마스터 피스 페이스 섀도우
+                          </p>
+                          <span class="review_count">리뷰2,311</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">아주 조아요 아쥬아쥬용</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider13">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg13.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg17.png " alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">[BIG SALE] 2025 투크 다이어리</p>
+                          <span class="review_count">리뷰 21</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">실용적인 내지까지 너무 예뻐요💛</p>
+                        <span class="reviewer">정****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider14">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg14.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="/img/swiper_smallimg5.jpg" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [챔뷰티X투크] 챔 PICK 조합 세트
+                          </p>
+                          <span class="review_count">리뷰 5,210</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">
+                          ㅎㅎ바르고 나가면 다들 청순하다 해요!!
+                        </p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider15">
+                    <div class="slide_img">
+                      <img src="./img/swiper_topimg15.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="/img/swiper_smallimg10.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">[챔뷰티X투크] 립 틴트 단품</p>
+                          <span class="review_count">리뷰 3,657</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">발림성 컬러표현 다 너무 좋....</p>
+                        <span class="reviewer">권****</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 두번째 슬라이드 -->
+              <div class="review_swiper swiper secondSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slider1">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg1.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg2.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE]투크 젠틀키스 글로우 틴트
+                          </p>
+                          <span class="review_count">리뷰40</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">완젼 이쁩니다 쌩얼이나 화장....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider2">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg2.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg2.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE]투크 젠틀키스 글로우 틴트
+                          </p>
+                          <span class="review_count">리뷰40</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">입술에 부담 안되고 얇고 편....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider3">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg3.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg2.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE]투크 젠틀키스 글로우 틴트
+                          </p>
+                          <span class="review_count">리뷰40</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">착색 발샷 너~무 다 이뽀요 진작....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider4">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg4.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg2.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE]투크 젠틀키스 글로우 틴트
+                          </p>
+                          <span class="review_count">리뷰40</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">요즘 립은 젠틀키스만 쓰고 다녀요</p>
+                        <span class="reviewer">선****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider5">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg5.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg2.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE]투크 젠틀키스 글로우 틴트
+                          </p>
+                          <span class="review_count">리뷰40</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">증정용으로 받고서 정품 출시를 ....</p>
+                        <span class="reviewer">이****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider6">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg6.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg5.jpg" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [챔뷰티X투크] 챔 PICK 조합 세트
+                          </p>
+                          <span class="review_count">리뷰 5,210</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">저번에는 여신 세트로 구매했....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider7">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg7.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg11.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [챔뷰티X투크] 러프 벗 프로 립펜슬
+                          </p>
+                          <span class="review_count">리뷰 1,732</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">좋아요 전에사고나서 또삿어요</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider8">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg8.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg5.jpg" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [챔뷰티X투크] 챔 PICK 조합 세트
+                          </p>
+                          <span class="review_count">리뷰 5,210</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">또주문하께요 감사합니다!</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider9">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg9.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg3.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 러프 벗 프로 립펜슬
+                          </p>
+                          <span class="review_count">리뷰 1,659</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">ㅎㅎ 두번째구매입니다. 색깔....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider10">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg10.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg13.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">[BIG SALE] 투크 스파 립밤</p>
+                          <span class="review_count">리뷰 572</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">정말 각질 제거가 되는것 같아요~</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider11">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg11.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg3.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 수채화 꽃잎 파우더
+                          </p>
+                          <span class="review_count">리뷰 438</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">아직 사용전인데 워낙 인기가 많....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider12">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg12.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg3.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 수채화 꽃잎 파우더
+                          </p>
+                          <span class="review_count">리뷰 438</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">
+                          너무 이쁜데 평이 좋지 않아 아쉬워요
+                        </p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider13">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg13.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg5.jpg" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [챔뷰티X투크] 챔 PICK 조합 세트
+                          </p>
+                          <span class="review_count">리뷰 5,210</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">투크틴트 꼭 사세요! 최애틴트예요!</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider14">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg14.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg14.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">
+                            [BIG SALE] 투크 윗아웃 미러 립틴트
+                          </p>
+                          <span class="review_count">리뷰 2,944</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">투크틴트를 거의 전색상 보유 중....</p>
+                        <span class="reviewer">네이버 페이 구****</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider15">
+                    <div class="slide_img">
+                      <img src="./img/swiper_bottomimg15.webp" alt="" />
+                    </div>
+                    <div class="review_swiper_textbox">
+                      <div class="review_item_box">
+                        <div class="review_item_img">
+                          <img src="./img/swiper_smallimg13.png" alt="" />
+                        </div>
+                        <div class="item_text">
+                          <p class="item_name">[BIG SALE] 투크 스파 립밤</p>
+                          <span class="review_count">리뷰672</span>
+                        </div>
+                      </div>
+                      <div class="review_text">
+                        <p class="review">
+                          솔직하게 원가로 사기에는 아까운데 빅세일....
+                        </p>
+                        <span class="reviewer">노****</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer class="footer_container">
+        <div class="footer_second">
+          <p class="footer_font">effortless mood, tooq</p>
+          <div class="footer_text">
+            <ul class="footer1">
+              <li class="second_text">terms of use</li>
+              <li class="second_text">privary policy</li>
+              <li class="second_text">shopping guide</li>
+            </ul>
+            <ul class="footer2">
+              <li class="phone_number">02-6956-9918</li>
+              <li class="time">(mon~fri 10:30 - 17:30 / wed 13:00 - 17:30)</li>
+              <li class="email">tooqer@tooq.co.kr</li>
+              <li class="address">
+                04019 서울 마포구 동교로8안길 31 금악빌딩 4층
+              </li>
+            </ul>
+          </div>
+          <div class="last_text">
+            <p class="copyright">Copyright © tooq® . All rights reserved.</p>
+            <button class="insta">instagram</button>
+            <button class="kakao">kakao talk</button>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

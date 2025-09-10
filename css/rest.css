@@ -1,0 +1,62 @@
+/* @font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@100..900&family=Reenie+Beanie&display=swap");
+
+* {
+  font-family: "Noto Sans KR", "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html,
+body {
+  overflow-x: hidden;
+} */
+
+ul,
+li {
+  list-style: none;
+}
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.reenie_beanie {
+  font-family: "Reenie Beanie", sans-serif;
+}
+
+.best_name,
+.footer_font,
+.photo_name,
+.notice_text {
+  font-family: "Reenie Beanie", cursive;
+}
+
+.best,
+.tooq,
+.magazine,
+.footer1 li,
+.footer2 li,
+.copyright,
+.insta,
+.kakao,
+.swiper-slide {
+  font-family: "Montserrat", sans-serif;
+}
